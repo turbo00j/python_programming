@@ -1,0 +1,10 @@
+def details():
+    aadhar_card_no = input("Enter your aadhar number:")
+    pan_card_no = input(" Enter your PAN card number:")
+    mobile_no = input("Enter your mobile number :")
+    adress = input("Enter your Adress:")
+    print("*********************************")
+    print("*******PERSONAL DETAILS**********")
+    print(" Aadhar no:",aadhar_card_no,"\n PAN card no :",pan_card_no,"\n Mobile no :",mobile_no,"\n Adress:",adress)
+    print("*********************************")
+details()

@@ -1,0 +1,12 @@
+file_name=input("Enter file name:")
+file_mode=input("Enter the mode of your choice (w/r/a/r+/w+/a+) :")
+f=open(file_name,file_mode)
+eno=input("Enter employe ID:")
+ename=input("Enter employee name:")
+edept=input("Enter employee department:")
+edesg=input("Enter employee designation:")
+esal=input("Enter employee salary:")
+data=eno+','+ename+','+edept+','+edesg+','+esal+'\n'
+f.write(data)
+print("Employee record has been created")
+f.close()

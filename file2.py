@@ -1,0 +1,5 @@
+f=open("Employee.txt",'a')
+f.write("E14586,Ramu,IT,SE,10000.00\n")
+f.write("E55885,jai,IT,SE,10000.00\n")
+print("Employee records are written succesfully")
+f.close()
